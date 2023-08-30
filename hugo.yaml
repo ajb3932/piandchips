@@ -58,9 +58,9 @@ params:
     imageTitle: Site Logo
     buttons:
       - name: About
-        url: about
-      - name: Posts
-        url: posts
+        url: /about
+      - name: Services
+        url: /services
   homeInfoParams:
     Title: "Hi!"
     Content:
@@ -68,7 +68,7 @@ params:
     - name: github
       url: 'https://github.com/ajb3932'
     - name: discord
-      url: '/discord'
+      url: 'https://discord.gg/3PUWkw9awF'
   analytics:
     google:
       SiteVerificationTag: XYZabc
@@ -95,18 +95,26 @@ params:
       - content
 menu:
   main:
+    - identifier: home
+      name: About
+      url: /
+      weight: 10
     - identifier: about
       name: About
       url: /about
       weight: 10
-    - identifier: posts
-      name: Posts
-      url: /posts
+    - identifier: services
+      name: Services
+      url: /services
       weight: 20
+    - identifier: wiki
+      name: Book of Knowledge
+      url: 'https://wiki.potato.coffee'
+      weight: 30
     - identifier: search
       name: Search
       url: /search
-      weight: 20
+      weight: 40
 
 markup:
   highlight:
