@@ -1,0 +1,119 @@
+baseURL: 'https://examplesite.com/'
+title: Pi and Chips
+paginate: 5
+theme: PaperMod
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+googleAnalytics:
+pygmentsUseClasses: true
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: Pi and Chips
+  description: "I'm Alex, a friendly face providing honest IT Support in Leighton Buzzard."
+  keywords: [IT Support, Laptop Repair, Computer, Laptop, Help, Leighton Buzzard, Bedfordshire]
+  author: "Alex Jarvis-Blanks"
+  images: ["images/favicon-32x32.png"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+  assets:
+    favicon: images/favicon.ico
+    favicon16x16: images/favicon-16x16.png
+    favicon32x32: images/favicon-32x32.png
+    apple_touch_icon: images/favicon-192x192.png
+    safari_pinned_tab: images/favicon-192x192.png
+  label:
+    text: Pi and Chips
+    icon: images/favicon-32x32.png
+    iconHeight: 35
+  profileMode:
+    enabled: true
+    title: "👨‍💻 Pi and Chips 🍟"
+    subtitle: IT Support, Leighton Buzzard
+    imageUrl: images/favicon-512x512.png
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: Site Logo
+    buttons:
+      - name: About
+        url: about
+      - name: Posts
+        url: posts
+  homeInfoParams:
+    Title: "Hi!"
+    Content:
+  socialIcons:
+    - name: github
+      url: 'https://github.com/ajb3932'
+    - name: discord
+      url: '/discord'
+  analytics:
+    google:
+      SiteVerificationTag: XYZabc
+    bing:
+      SiteVerificationTag: XYZabc
+    yandex:
+      SiteVerificationTag: XYZabc
+  cover:
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys:
+      - title
+      - permalink
+      - summary
+      - content
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about
+      weight: 10
+    - identifier: posts
+      name: Posts
+      url: /posts
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 20
+
+markup:
+  highlight:
+    noClasses: false
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
