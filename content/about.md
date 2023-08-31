@@ -10,9 +10,7 @@ showtoc: false
 summary: "A summary of Pi and Chips."
 ---
 
-{{< rawhtml >}}
-<img style="border-radius:50%;margin-left:auto;margin-right:auto" width="20%" src="/images/08:23.jpg" alt="Picture of me">
-{{< /rawhtml >}}
+{{< profiles >}}
 # Hi! 👋
 
 I’m **Alex**, Owner of **Pi and Chips**. I’m a friendly face offering honest IT Support in Leighton Buzzard and the surrounding areas, I can also offer telephone, remote & online support.

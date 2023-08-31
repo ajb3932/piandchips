@@ -1,5 +1,5 @@
 baseURL: 'https://piandchips.io'
-title: Pi and Chips | IT Support Leighton Buzzard
+title: Pi and Chips | IT Help | Leighton Buzzard
 paginate: 5
 theme: PaperMod
 enableRobotsTXT: true
@@ -14,7 +14,7 @@ minify:
 
 params:
   env: production
-  title: Pi and Chips | IT Support Leighton Buzzard
+  title: Pi and Chips
   description: "I'm Alex, a friendly face providing honest IT Support in Leighton Buzzard."
   keywords: [IT Support, Laptop Repair, Computer, Laptop, IT Help, Leighton Buzzard, Bedfordshire]
   author: "Alex Jarvis-Blanks"
@@ -61,11 +61,6 @@ params:
         url: /about
       - name: Services
         url: /services
-  socialIcons:
-    - name: github
-      url: 'https://github.com/ajb3932'
-    - name: discord
-      url: 'https://discord.gg/3PUWkw9awF'
   analytics:
     google:
       SiteVerificationTag: XYZabc
@@ -73,23 +68,7 @@ params:
       SiteVerificationTag: XYZabc
     yandex:
       SiteVerificationTag: XYZabc
-  cover:
-    hidden: true
-    hiddenInList: true
-    hiddenInSingle: true
 
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    keys:
-      - title
-      - permalink
-      - summary
-      - content
 menu:
   main:
     - identifier: home
@@ -108,10 +87,6 @@ menu:
       name: Book of Knowledge
       url: 'https://wiki.potato.coffee'
       weight: 40
-    - identifier: search
-      name: Search
-      url: /search
-      weight: 50
 
 markup:
   highlight:
