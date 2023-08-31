@@ -1,5 +1,5 @@
-baseURL: '/'
-title: Pi and Chips
+baseURL: 'https://piandchips.io'
+title: Pi and Chips | IT Support Leighton Buzzard
 paginate: 5
 theme: PaperMod
 enableRobotsTXT: true
@@ -14,9 +14,9 @@ minify:
 
 params:
   env: production
-  title: Pi and Chips
+  title: Pi and Chips | IT Support Leighton Buzzard
   description: "I'm Alex, a friendly face providing honest IT Support in Leighton Buzzard."
-  keywords: [IT Support, Laptop Repair, Computer, Laptop, Help, Leighton Buzzard, Bedfordshire]
+  keywords: [IT Support, Laptop Repair, Computer, Laptop, IT Help, Leighton Buzzard, Bedfordshire]
   author: "Alex Jarvis-Blanks"
   images: ["images/favicon-32x32.png"]
   DateFormat: "January 2, 2006"
@@ -26,9 +26,9 @@ params:
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
-  ShowBreadCrumbs: true
+  ShowBreadCrumbs: false
   ShowCodeCopyButtons: false
-  ShowWordCount: true
+  ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
@@ -39,31 +39,28 @@ params:
   showtoc: false
   tocopen: false
   assets:
-    favicon: images/favicon.ico
-    favicon16x16: images/favicon-16x16.png
-    favicon32x32: images/favicon-32x32.png
-    apple_touch_icon: images/favicon-192x192.png
-    safari_pinned_tab: images/favicon-192x192.png
+    favicon: "/images/favicon.ico"
+    favicon16x16: "/images/favicon-16x16.png"
+    favicon32x32: "/images/favicon-32x32.png"
+    apple_touch_icon: "/images/favicon-192x192.png"
+    safari_pinned_tab: "/images/favicon-192x192.png"
   label:
     text: Pi and Chips
-    icon: images/favicon-32x32.png
+    icon: "/images/favicon-32x32.png"
     iconHeight: 35
   profileMode:
     enabled: true
     title: "👨‍💻 Pi and Chips 🍟"
     subtitle: IT Support, Leighton Buzzard
-    imageUrl: images/favicon-512x512.png
+    imageUrl: "/images/favicon-512x512.png"
     imageWidth: 120
     imageHeight: 120
-    imageTitle: Site Logo
+    imageTitle: Pi and Chips Logo
     buttons:
       - name: About
         url: /about
       - name: Services
         url: /services
-  homeInfoParams:
-    Title: "Hi!"
-    Content:
   socialIcons:
     - name: github
       url: 'https://github.com/ajb3932'
@@ -96,25 +93,25 @@ params:
 menu:
   main:
     - identifier: home
-      name: About
+      name: Home
       url: /
       weight: 10
     - identifier: about
       name: About
       url: /about
-      weight: 10
+      weight: 20
     - identifier: services
       name: Services
       url: /services
-      weight: 20
+      weight: 30
     - identifier: wiki
       name: Book of Knowledge
       url: 'https://wiki.potato.coffee'
-      weight: 30
+      weight: 40
     - identifier: search
       name: Search
       url: /search
-      weight: 40
+      weight: 50
 
 markup:
   highlight:
