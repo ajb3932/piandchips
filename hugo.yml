@@ -6,7 +6,7 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-googleAnalytics:
+googleAnalytics: G-K4091NWCKD
 pygmentsUseClasses: true
 minify:
   disableXML: true
@@ -61,13 +61,6 @@ params:
         url: /about
       - name: Services
         url: /services
-  analytics:
-    google:
-      SiteVerificationTag: XYZabc
-    bing:
-      SiteVerificationTag: XYZabc
-    yandex:
-      SiteVerificationTag: XYZabc
 
 menu:
   main:
